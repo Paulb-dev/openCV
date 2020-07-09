@@ -1,4 +1,4 @@
-## Welcome to my GitHub Pages
+### Welcome to my GitHub Pages
  
 You can use the [editor on GitHub](https://github.com/Paulb-dev/openCV/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -7,17 +7,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Data
 If you want to train your own haar cascades for openCV or Tensorflow you will need a lot of data (images).
 There are a lot of methods to get this data. I recommend to use google or you can make your own images with any cam.
-If you want to get this data from Google I recommend to use the "Fatkun down"
+If you want to get this data from Google I recommend to use the "Fatkun downloader". 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Fatkun downloader url = "https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=de"
 
-```markdown
-Syntax highlighted code block
+### Training
+If you have your data (images) you are ready to train your cascade. 
+A simple Method is to use is the "Cascade Trainer GUI", you can find a documentation on there own website.
 
-# Header 1
-## Header 2
-### Header 3
 
+```markdownd
 ```python
 import cv2
 import numpy as np
