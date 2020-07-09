@@ -1,8 +1,4 @@
 ### Welcome to my GitHub Pages
- 
-You can use the [editor on GitHub](https://github.com/Paulb-dev/openCV/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Data
 If you want to train your own haar cascades for openCV or Tensorflow you will need a lot of data (images).
@@ -10,11 +6,12 @@ There are a lot of methods to get this data. I recommend to use google or you ca
 If you want to get this data from Google I recommend to use the "Fatkun downloader". 
 
 Fatkun downloader url = "https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=de"
-
+    
 ### Training
-If you have your data (images) you are ready to train your cascade. 
-A simple Method is to use is the "Cascade Trainer GUI", you can find a documentation on there own website.
+    If you have your data (images) you are ready to train your cascade. 
+    A simple Method is to use is the "Cascade Trainer GUI", you can find a documentation on there own website.
 
+Cascade Trainer GUI url = "https://amin-ahmadi.com/cascade-trainer-gui/"
 
 ```markdownd
 ```python
@@ -63,16 +60,16 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 ```
+### Result
+If you have trained  your model you can test it with the python code above.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+If you get an error you can try this thinks:
+```
+1.|first you have to check that python is installed
+2.|python -m pip install --upgrade pip
+3.|pip install opencv-python
+```
+![image](https://i.ytimg.com/vi/su3pHwPyrVY/maxresdefault.jpg)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
