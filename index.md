@@ -15,6 +15,18 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+```python
+import cv2
+import numpy as np
+
+path = "path of cascade"
+cameraNo = 0 //camera port
+objectName = "" //object name
+frameWidth = 640 //frame width
+frameHeight = 480 //frame height
+color = (255,0,255) //color
+```
+
 - Bulleted
 - List
 
