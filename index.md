@@ -1,10 +1,13 @@
-## Welcome to GitHub Pages
-
+## Welcome to my GitHub Pages
+ 
 You can use the [editor on GitHub](https://github.com/Paulb-dev/openCV/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Data
+If you want to train your own haar cascades for openCV or Tensorflow you will need a lot of data (images).
+There are a lot of methods to get this data. I recommend to use google or you can make your own images with any cam.
+If you want to get this data from Google I recommend to use the "Fatkun down"
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
