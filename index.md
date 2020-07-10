@@ -1,4 +1,4 @@
-### Welcome to my GitHub Pages
+### Welcome to my GitHub Page
 
 ### Data
 If you want to train your own haar cascades for openCV or Tensorflow you will need a lot of data (images).
@@ -8,8 +8,8 @@ If you want to get this data from Google I recommend to use the "Fatkun download
 Fatkun downloader url = "https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=de"
     
 ### Training
-    If you have your data (images) you are ready to train your cascade. 
-    A simple Method is to use is the "Cascade Trainer GUI", you can find a documentation on there own website.
+    If you get your data (images) you are ready to train your cascade. 
+    A simple method  to use is the "Cascade Trainer GUI", you can find a documentation on there own website.
 
 Cascade Trainer GUI url = "https://amin-ahmadi.com/cascade-trainer-gui/"
 
@@ -63,9 +63,9 @@ while True:
 ### Result
 If you have trained  your model you can test it with the python code above.
 
-If you get an error you can try this thinks:
+If you get any errors you can try this:
 ```
-1.|first you have to check that python is installed
+1.|check that python is installed
 2.|python -m pip install --upgrade pip
 3.|pip install opencv-python
 ```
